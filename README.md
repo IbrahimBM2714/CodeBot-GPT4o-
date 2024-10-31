@@ -27,7 +27,7 @@ Ready to test your skills and learn something new?</p>
 
 
 <h3>Youtube video link:</h3>
-https://www.youtube.com/watch?v=ZHosTDFff14&ab_channel=ibrahimmansoor
+https://www.youtube.com/watch?v=qywikPb63m4&ab_channel=ibrahimmansoor
 
 <h3>To run the code:</h3>
 <p>NOTE: make sure you have an OpenAI API key stored inside a .env file in the backend folder. Make sure the env variable name is OPENAI_API_KEY</p>
