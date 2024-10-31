@@ -1,0 +1,139 @@
+/* General styles */
+/* body {
+  font-family: 'Roboto', sans-serif; 
+  margin: 0;
+  padding: 0;
+} */
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: #76b0aa;
+  justify-content: center;
+  /* padding: 50px; */
+}
+
+/* Adjusted Home Button Style */
+.home-button {
+  position: absolute; /* Fix the position */
+  top: 20px;
+  left: 20px;
+  padding: 10px 15px; /* Adjusted padding */
+  font-size: 14px; /* Adjusted font size */
+  background-color: #55AD9B; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15); /* Soft shadow for elevation */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.home-button:hover {
+  background-color: #95D2B3; /* Lighter color on hover */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Dashboard styles */
+.selection-section {
+  text-align: center;
+  padding: 20px; /* Reduced padding */
+}
+
+/* Challenge screen styles */
+.split-screen {
+  display: flex;
+  flex: 1; /* Use remaining space */
+  padding: 20px;
+  overflow: hidden; /* Prevent overflow */
+}
+
+.left-panel {
+  flex: 2; /* Wider panel for the challenge */
+  padding: 15px; /* Adjusted padding */
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: space-between; /* Space out items */
+}
+
+.right-panel {
+  flex: 1; /* Narrower panel for chat */
+  padding: 15px; /* Adjusted padding */
+  border-left: 2px solid #ccc; /* Separator line */
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.story {
+  margin-bottom: -120px; /* Adjusted margin */
+  background-color: #D8EFD3; /* Background color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px; /* Inner padding */
+  font-size: 14px; /* Adjusted font size */
+}
+
+.solution {
+  height: 300px; /* Set height for the solution area */
+  margin-bottom: 2px; /* Space between solution and buttons */
+  background-color: #D8EFD3; /* Background color */
+  border-radius: 8px; /* Rounded corners */
+  padding: -22px; /* Inner padding */
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between; /* Space between button and attempts */
+  align-items: center;
+}
+
+/* Chat styles */
+.llm-chat {
+  background-color: #D8EFD3; /* Background color for the chat box */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px; /* Adjusted padding */
+  flex: 2; /* Fill the right panel */
+  overflow-y: auto; /* Scroll if too many messages */
+}
+
+#chat-messages {
+  max-height: 250px; /* Limit height of chat messages */
+  overflow-y: auto; /* Scrollable area for messages */
+  margin-bottom: 10px; /* Space before input */
+
+}
+
+.llm-input {
+  display: flex;
+}
+
+.llm-input input {
+  flex: 1; /* Fill available space */
+  padding: 10px;
+  border: 1px solid #ccc; /* Border for input */
+  border-radius: 15px; /* Rounded corners */
+}
+
+.llm-input button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background-color: #55AD9B; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+}
+
+.llm-input button:hover {
+  background-color: #95D2B3; /* Lighter color on hover */
+}
+
+.chat-message {
+  margin-bottom: 5px; /* Space between messages */
+  font-size: 12px; /* Adjusted font size */
+}
