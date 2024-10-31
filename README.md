@@ -28,9 +28,9 @@ Ready to test your skills and learn something new?</p>
 https://www.youtube.com/watch?v=ZHosTDFff14&ab_channel=ibrahimmansoor
 
 <h3>To run the code:</h3>
-<p>Make sure you have an OpenAI API key stored inside a .env file in the backend folder. Make sure the env variable name is OPENAI_API_KEY</p>
+<p>NOTE: make sure you have an OpenAI API key stored inside a .env file in the backend folder. Make sure the env variable name is OPENAI_API_KEY</p>
 <p>To run the backend code, cd into the backend directory and run uvicorn main:app --reload to start the FAST API server.</p>
 <p>You may also need to install dependencies such as fastapi and openai</p>
 <p>To run the frontend code, cd into the frontend directory and run npm i to get the node_modules folder. After this, just run npm start to start the frontend.</p>
 <p>You may also need to install dependencies such as axios and monaco editor</p>
-<p>*Make sure to run the backend before the frontend or else you might run into some errors*</p>
+<p>NOTE: make sure to run the backend before the frontend or else you might run into some errors</p>
