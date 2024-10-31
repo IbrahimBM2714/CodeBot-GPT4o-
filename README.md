@@ -1,5 +1,7 @@
 <h1>CodeBot</h1>
 
+<p><strong>This project was build in collaboration with https://github.com/manalrani </strong></p>
+
 <p>Embark on a coding adventure designed just for you!
 
 Each challenge unfolds a new chapter, pushing your skills further as you solve and explore
