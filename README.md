@@ -9,8 +9,7 @@ Ready to test your skills and learn something new?</p>
 <h3>Features:</h3>
 
 <ul>
-  <li>Help programmers develop logical thinking by providing problems and guiding them to the solution instead of outright giving them the answer.
---The problems will be in the form of a story.</li>
+  <li>Help programmers develop logical thinking by providing problems and guiding them to the solution instead of outright giving them the answer. The problems will be in the form of a story.</li>
   <li>The problems will be in the form of a story.</li>
   <li>The bot will generate a scenario on the spot and ask the user to solve the scenario.</li>
   <li>The user's answer will then be evaluated.</li>
