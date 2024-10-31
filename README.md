@@ -17,7 +17,7 @@ Ready to test your skills and learn something new?</p>
   <li>If the answer is good, the bot will now ask a different problem regarding the story</li>
 </ul>
 
-<h4>Below are the screenshots:</h4>
+<h3>Below are the screenshots:</h3>
 </br>
 
 ![image](https://github.com/user-attachments/assets/cb42b1ce-aa3f-4c2e-bcd0-f978420f461c)
